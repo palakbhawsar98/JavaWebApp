@@ -4,6 +4,7 @@ pipline {
     stage("build") {
        steps {
          sh 'mvn build'
+         sh 'mkdir hello'
        }
     
    }
