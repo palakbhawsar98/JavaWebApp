@@ -40,9 +40,4 @@ public class AppTest
         }
     }
 
-    @After
-    public void cleanUpStreams() {
-        System.setOut(null);
-    }
-
 }
